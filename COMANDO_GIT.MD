@@ -3,9 +3,11 @@ git --version
 
 <!-- configuaracion base-->
 git config --global user, name " Pinilla Soledad"
-git config --global user, email "soledadpinilla949@gamil.com"
+git config --global user, email   "soledadpinilla949@gamil.com"
 <!-- verificar configuration -->
 git config --list
+
+
 
 <!-- Incializar repositpor local -->
 git init
@@ -28,3 +30,6 @@ git log
 
 <!-- Limpiar la consola -->
 clear
+
+Para salir de (End) apretar la tecla q;
+
