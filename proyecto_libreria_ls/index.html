@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Librería L&S | Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="marca">
+      <span class="logo">L&S</span>
+      <div>
+        <h1>Librería y Fotocopiadora</h1>
+        <p>Catálogo de productos escolares</p>
+      </div>
+    </div>
+    <button id="btnTema" class="btn btn-secundario" type="button">🌙 Modo oscuro</button>
+  </header>
+
+  <main class="contenedor">
+    <section class="bienvenida">
+      <div>
+        <p class="etiqueta">TODO PARA ESTUDIAR</p>
+        <h2>Encontrá tus útiles favoritos</h2>
+        <p>Elegí tus productos y agregalos al carrito.</p>
+      </div>
+      <div class="resumen-carrito">
+        <span>🛒 Carrito</span>
+        <strong><span id="contadorItems">0</span> artículos</strong>
+        <button id="btnVerCarrito" class="btn btn-principal" type="button">Ver carrito</button>
+      </div>
+    </section>
+
+    <section class="herramientas">
+      <input id="buscador" type="search" placeholder="Buscar productos..." aria-label="Buscar productos">
+      <select id="filtroCategoria" aria-label="Filtrar por categoría">
+        <option value="todos">Todas las categorías</option>
+        <option value="Cuadernos">Cuadernos</option>
+        <option value="Escritura">Escritura</option>
+        <option value="Organización">Organización</option>
+        <option value="Manualidades">Manualidades</option>
+      </select>
+    </section>
+
+    <section>
+      <div class="titulo-seccion">
+        <h2>Productos</h2>
+        <span id="cantidadResultados"></span>
+      </div>
+      <div id="contenedorProductos" class="grilla-productos"></div>
+    </section>
+
+    <section id="seccionCarrito" class="seccion-carrito">
+      <div class="titulo-seccion">
+        <h2>Tu carrito</h2>
+        <button id="btnVaciar" class="btn btn-secundario" type="button">Vaciar carrito</button>
+      </div>
+      <div id="contenedorCarrito"></div>
+      <div class="total-carrito">
+        <span>Total de la compra</span>
+        <strong id="totalCarrito">$0</strong>
+      </div>
+      <button id="btnFinalizar" class="btn btn-principal" type="button">Finalizar compra (demostración)</button>
+      <p class="nota">Proyecto académico: la compra es una demostración y no procesa pagos reales.</p>
+    </section>
+  </main>
+
+  <div id="notificacion" class="notificacion" role="status" aria-live="polite"></div>
+  <footer>
+    <p><strong>Librería y Fotocopiadora L&S</strong> · Proyecto final de Laboratorio</p>
+    <p>Los precios y productos son de ejemplo y se pueden modificar en datos.js.</p>
+  </footer>
+
+  <script src="datos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

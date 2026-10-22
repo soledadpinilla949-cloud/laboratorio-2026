@@ -1,0 +1,13 @@
+// Array de objetos: los productos se mantienen separados del HTML.
+const productos = [
+  { id: 1, nombre: "Cuaderno universitario", categoria: "Cuadernos", precio: 4500, stock: 12, descripcion: "Cuaderno de  tapa dura,  hojas rayadas.", imagen: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=700&q=80" },
+  { id: 2, nombre: "Carpeta escolar", categoria: "Organización", precio: 3200, stock: 8, descripcion: "Carpeta para organizar apuntes y tareas.", imagen: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=80" },
+  { id: 3, nombre: "Lapicera azul", categoria: "Escritura", precio: 700, stock: 30, descripcion: "Lapicera de tinta azul para uso diario.", imagen: "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=700&q=80" },
+  { id: 4, nombre: "Set de resaltadores", categoria: "Escritura", precio: 2800, stock: 10, descripcion: "Colores brillantes para destacar información.", imagen: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=80" },
+  { id: 5, nombre: "Lápices de colores", categoria: "Manualidades", precio: 3900, stock: 7, descripcion: "Set de lápices para dibujar y pintar.", imagen: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=80" },
+  { id: 6, nombre: "Tijera escolar", categoria: "Manualidades", precio: 1500, stock: 14, descripcion: "Tijera para trabajos escolares y manualidades.", imagen: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=80" },
+  { id: 7, nombre: "Notas adhesivas", categoria: "Organización", precio: 1800, stock: 16, descripcion: "Notas de colores para recordatorios.", imagen: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80" },
+  { id: 8, nombre: "Marcadores de colores", categoria: "Escritura", precio: 2500, stock: 9, descripcion: "Marcadores para carteles y actividades.", imagen: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=80" },
+  { id: 9, nombre: "Regla de 30 cm", categoria: "Organización", precio: 900, stock: 20, descripcion: "Regla transparente para medir y trazar.", imagen: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=80" },
+  { id: 10, nombre: "Block de hojas", categoria: "Cuadernos", precio: 2200, stock: 11, descripcion: "Hojas para tareas, dibujos y apuntes.", imagen: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=700&q=80" }
+];
